@@ -1,4 +1,4 @@
-name: 1.2.1 Мигание светодиодом через регистр
+name: 1.1.3 Запуск прошивки
 
 on:
   push:
@@ -6,5 +6,5 @@ on:
 
 jobs:
   check:
-    uses: ant-lab-ru/es-test/.github/workflows/check-1-2-1.yml@master
+    uses: ant-lab-ru/es-test/.github/workflows/check-1-1-3.yml@master
     secrets:
